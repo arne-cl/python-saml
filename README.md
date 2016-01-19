@@ -30,13 +30,13 @@ since 2002, but lately it is becoming popular due its advantages:
  * **IT Friendly** - SAML simplifies life for IT because it centralizes
    authentication, provides greater visibility and makes directory
    integration easier.
- * **Opportunity** - B2B cloud vendor should support SAML to facilitate the 
-   integration of their product.
+ * **Opportunity** - B2B cloud vendors should support SAML to facilitate the 
+   integration of their products.
 
 General description
 -------------------
 
-OneLogin's SAML Python toolkit let you build a SP (Service Provider) over
+OneLogin's SAML Python toolkit lets you build a SP (Service Provider) over
 your Python application and connect it to any IdP (Identity Provider).
 
 Supports:
@@ -54,7 +54,7 @@ Key features:
  * **saml2int** - Implements the SAML 2.0 Web Browser SSO Profile.
  * **Session-less** - Forget those common conflicts between the SP and
    the final app, the toolkit delegate session in the final app.
- * **Easy to use** - Programmer will be allowed to code high-level and 
+ * **Easy to use** - Programmers will be allowed to code high-level and 
    low-level programming, 2 easy to use APIs are available.
  * **Tested** - Thoroughly tested.
  * **Popular** - OneLogin's customers use it. Add easy support to your django/flask/bottle web projects.
@@ -70,7 +70,7 @@ Installation
  * [isodate](https://pypi.python.org/pypi/isodate)  An ISO 8601 date/time/duration parser and formater
  * [defusedxml](https://pypi.python.org/pypi/defusedxml)  XML bomb protection for Python stdlib modules
 
-Review the setup.py file to know the version of the library that python-saml is using
+Review the setup.py file to know the version of the library that python-saml is using.
 
 ### Code ###
 
@@ -81,7 +81,7 @@ The toolkit is hosted on github. You can download it from:
  * Lastest release: https://github.com/onelogin/python-saml/releases/latest
  * Master repo: https://github.com/onelogin/python-saml/tree/master
 
-Copy the core of the library (src/onelogin/saml2 folder) and merge the setup.py inside the python application. (each application has its structure so take your time to locate the Python SAML toolkit in the best place). 
+Copy the core of the library (**src/onelogin/saml2** folder) and merge the setup.py inside the python application. (Each application has its structure, so take your time to locate the Python SAML toolkit in the best place). 
 
 #### Option 2. Download from pypi ####
 
